@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Html with css</title>
+   <link rel="stylesheet" href="./css/mystyles.css">
+  
+</head>
+
+<body>                                               
+     <h2>URLs</h2>
+     <a href="https://www.w3.org/" target="_blank">W3C</a>
+     <br /> <br />
+     <a href="https://google.com/" target="_blank">Google</a>
+     <br /> <br />
+     <a href="https://en.wikipedia.org/" target="_blank">Wikipedia</a> 
+     <br /> <br />
+     <h2>Image as a link</h2>
+     <p>The image below is a link. Try to click on it.</p>
+     <a href="https://google.com/" target="_blank"><img class="using-img" src="./images/frontend-backend.webp" alt="weddesign"  /></a>
+     <br /> <br />
+     <a href="https://www.google.com/" id="renkli-link" class="using-a-tag">Google</a>
+     <br /> <br />
+     <img class="gif" src="./images/gif.gif" alt="gif"/>
+     <h3 class="using-float">Floating Images : using image at the right or left with float</h3>
+     <img class="gif2" src="./images/gif2.gif" alt="gif2"/>
+     <img class="gif3" src="./images/gif2.gif" alt="gif2"/>
+     <br /><br /><br />
+     <table class="table-headings" border="1">
+        <tr>
+          <th>Country</th>                    
+          <th>for what you should choose</th>                    
+          <th>yes or no</th>                    
+        </tr>
+        <tr>
+         <td>Usa</td>                     
+         <td>Education</td>                     
+         <td>yes</td>                     
+        </tr>
+        <tr>
+          <td>Norway</td>                    
+          <td>Natural beauties</td>                    
+          <td>yes</td>                    
+        </tr>
+        <tr>
+          <td>Egypt</td>                    
+          <td>history</td>                    
+          <td>yes</td>                    
+        </tr>                      
+     </table>
+     
+     <h2 class="nav">Navigation Menu :</h2>
+     <ul class="unordered-list">
+        <li><a href="#home">Home</a></li>                      
+        <li><a href="#news">News</a></li>                      
+        <li><a href="#contact">Contact</a></li>                      
+        <li><a href="#about">About</a></li>                      
+     </ul>
+     <h3 class="using-div-h3">Using div :</h3>
+     <div class="using-div">
+       <h3>Lorem Ipsum</h3>                       
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+    ut aliquip ex ea commodo consequat.</p>
+      <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+    sunt in culpa qui officia deserunt mollit anim id est laborum.</p>                       
+     </div>
+     <h3 class="id-heading">Using id attribute in JavaScript :</h3>
+     <p class="id-paragraph">Please click the button below</p>
+     <h1 id="firstSentence">Hello World !</h1>
+     <button class="button-change" onclick="changeResult()">Change Text</button>
+     <script>
+      function changeResult(){
+        document.getElementById("firstSentence").innerHTML = "Have a nice day !"                      
+      }                        
+     </script>
+     <h1 class="my-JavaScript">My JavaScript</h1>
+     <p class="javaScript">JavaScript can change of an html element : </p>
+     <button class="js-button" type="button" onclick="myFunction()">Click me !</button>
+     <p class="js-demo" id="demonstration">This is a demo</p>
+     <script>
+         function myFunction(){
+            document.getElementById("demonstration").innerHTML = "Hi JavaScript !" ;                  
+         }                     
+     </script>
+
+</body>
+
+</html>
